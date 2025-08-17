@@ -6,4 +6,12 @@
 */
 
 // your code
-let factorial
+let factorial = 1
+let factorialLimit = 1
+
+
+
+while (factorialLimit <= 10) {
+  factorial *= factorialLimit;
+  factorialLimit++;
+}

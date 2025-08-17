@@ -5,4 +5,13 @@
 */
 
 // your code
-let sum
+
+let sum = 0;
+let odd = 1;
+
+while (odd <= 20) {
+  if (odd % 2 !== 0) {
+    sum += odd
+  }
+  odd++;
+}
