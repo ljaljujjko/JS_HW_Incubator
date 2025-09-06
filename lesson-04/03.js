@@ -46,4 +46,3 @@ function includesElement(array, element) {
 }
 
 
-console.log(findCommonElements([1, 2, 3], [2, 3, 4]))
